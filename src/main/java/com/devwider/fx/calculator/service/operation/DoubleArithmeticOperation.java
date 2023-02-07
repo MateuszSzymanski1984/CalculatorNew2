@@ -15,13 +15,16 @@ public enum DoubleArithmeticOperation implements IArithmeticOperation<Double> {
         public Double calculate(Double a, Double b) {
             return a - b;
         }
+
     },
     MULTIPLY("*") {
         @Override
         public Double calculate(Double a, Double b) {
             return a * b;
         }
+
     },
+
     DIVISION("/") {
         @Override
         public Double calculate(Double a, Double b) {
@@ -29,11 +32,14 @@ public enum DoubleArithmeticOperation implements IArithmeticOperation<Double> {
         }
     },
 
+    
     NON("") {
         @Override
         public Double calculate(Double a, Double b) {
             return 0.0;
         }
+
+
     };
 
     private final String op;

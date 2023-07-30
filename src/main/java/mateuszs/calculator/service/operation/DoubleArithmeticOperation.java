@@ -1,4 +1,4 @@
-package com.devwider.fx.calculator.service.operation;
+package mateuszs.calculator.service.operation;
 
 import java.util.stream.Stream;
 

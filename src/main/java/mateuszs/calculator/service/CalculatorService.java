@@ -1,7 +1,7 @@
-package com.devwider.fx.calculator.service;
+package mateuszs.calculator.service;
 
-import com.devwider.fx.calculator.service.operation.IArithmeticOperation;
-import com.devwider.fx.calculator.service.operation.ICalculatorOperation;
+import mateuszs.calculator.service.operation.IArithmeticOperation;
+import mateuszs.calculator.service.operation.ICalculatorOperation;
 
 import java.util.function.Function;
 

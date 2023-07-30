@@ -1,4 +1,4 @@
-package com.devwider.fx.calculator.service;
+package mateuszs.calculator.service;
 
 public interface ICalculatorService {
     String append(String text) throws NumberFormatException;

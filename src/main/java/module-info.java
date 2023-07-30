@@ -10,12 +10,12 @@ module com.devwider.fx.calculator {
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
 
-    exports com.devwider.fx.calculator.service;
-    opens com.devwider.fx.calculator.service to javafx.fxml;
-    exports com.devwider.fx.calculator.service.operation;
-    opens com.devwider.fx.calculator.service.operation to javafx.fxml;
-    exports com.devwider.fx.calculator.controller;
-    opens com.devwider.fx.calculator.controller to javafx.fxml;
-    exports com.devwider.fx.calculator;
-    opens com.devwider.fx.calculator to javafx.fxml;
+    exports mateuszs.calculator.service;
+    opens mateuszs.calculator.service to javafx.fxml;
+    exports mateuszs.calculator.service.operation;
+    opens mateuszs.calculator.service.operation to javafx.fxml;
+    exports mateuszs.calculator.controller;
+    opens mateuszs.calculator.controller to javafx.fxml;
+    exports mateuszs.calculator;
+    opens mateuszs.calculator to javafx.fxml;
 }

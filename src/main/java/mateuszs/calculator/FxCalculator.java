@@ -1,4 +1,4 @@
-package com.devwider.fx.calculator;
+package mateuszs.calculator;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;

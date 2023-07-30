@@ -1,9 +1,9 @@
-package com.devwider.fx.calculator.controller;
+package mateuszs.calculator.controller;
 
-import com.devwider.fx.calculator.service.CalculatorService;
-import com.devwider.fx.calculator.service.ICalculatorService;
-import com.devwider.fx.calculator.service.operation.DoubleArithmeticOperation;
-import com.devwider.fx.calculator.service.operation.DoubleCalculatorOperation;
+import mateuszs.calculator.service.CalculatorService;
+import mateuszs.calculator.service.ICalculatorService;
+import mateuszs.calculator.service.operation.DoubleArithmeticOperation;
+import mateuszs.calculator.service.operation.DoubleCalculatorOperation;
 import javafx.event.Event;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;

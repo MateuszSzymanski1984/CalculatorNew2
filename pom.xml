@@ -122,7 +122,7 @@
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>lib/</classpathPrefix>
-                            <mainClass>com.devwider.fx.calculator.FxCalculator</mainClass>
+                            <mainClass>mateuszs.calculator.FxCalculator</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
